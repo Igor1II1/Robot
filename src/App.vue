@@ -11,6 +11,9 @@
 				<li class="nav-item">
 					<router-link class="nav-link" to="/build"> построй бота </router-link>
 				</li>
+				<li class="nav-item">
+					<router-link class="nav-link" to="/qrcode"> QRCode </router-link>
+				</li>
 			</ul>
 		</nav>
 	</header>

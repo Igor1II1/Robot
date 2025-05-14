@@ -1,3 +1,4 @@
+import QRCode from '@/build/QRCode.vue'
 import RobotBuilder from '@/build/RobotBuilder.vue'
 import HomePage from '@/home/HomePage.vue'
 import PartInfo from '@/parts/partInfo.vue'
@@ -18,6 +19,11 @@ export default createRouter({
 			path: '/build',
 			name: 'построй бота',
 			component: RobotBuilder,
+		},
+		{
+			path: '/qrcode',
+			name: 'QR код',
+			component: QRCode,
 		},
 		{
 			path: '/parts/partType/:id',
